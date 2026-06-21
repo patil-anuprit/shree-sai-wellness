@@ -217,3 +217,44 @@ font-size:18px;
 margin-top:15px;
 color:#b8860b;
 }
+
+.experts{
+padding:80px 8%;
+background:#fafafa;
+text-align:center;
+}
+
+.experts h2{
+font-size:42px;
+color:#b8860b;
+margin-bottom:40px;
+}
+
+.experts-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.expert-card{
+background:white;
+padding:35px;
+border-radius:20px;
+text-decoration:none;
+color:#333;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:0.3s;
+}
+
+.expert-card:hover{
+transform:translateY(-10px);
+}
+
+.expert-card h3{
+color:#b8860b;
+margin-bottom:15px;
+}
+
+.expert-card p{
+margin:8px 0;
+}
