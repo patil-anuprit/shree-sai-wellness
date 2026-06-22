@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://patil-anuprit.github.io/shree-sai-wellness/sitemap.xml
