@@ -258,3 +258,69 @@ margin-bottom:15px;
 .expert-card p{
 margin:8px 0;
 }
+
+@media (max-width:768px){
+
+.navbar{
+flex-direction:column;
+padding:15px;
+}
+
+.brand{
+flex-direction:column;
+text-align:center;
+}
+
+.brand img{
+width:65px;
+}
+
+.menu{
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+margin-top:15px;
+}
+
+.hero{
+min-height:auto;
+padding:60px 20px;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+.primary-btn,
+.secondary-btn{
+display:block;
+width:100%;
+max-width:300px;
+margin:10px auto;
+}
+
+.stats,
+.features,
+.centers-grid,
+.experts-grid{
+grid-template-columns:1fr;
+}
+
+.why-us h2,
+.wellness-centers h2,
+.experts h2{
+font-size:30px;
+}
+
+.stat-card,
+.feature,
+.center-card,
+.expert-card{
+padding:25px;
+}
+
+}
