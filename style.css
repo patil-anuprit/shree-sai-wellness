@@ -544,3 +544,12 @@ border-radius:50px;
 box-shadow:0 8px 20px rgba(0,0,0,.08);
 font-weight:600;
 }
+
+.center-card,
+.expert-card,
+.feature,
+.stat-card,
+.testimonial-card{
+border:1px solid rgba(184,134,11,.15);
+background:linear-gradient(180deg,#ffffff,#fcfaf5);
+}
