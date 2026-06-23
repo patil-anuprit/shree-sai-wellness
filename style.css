@@ -20,6 +20,8 @@ position:sticky;
 top:0;
 z-index:1000;
 box-shadow:0 2px 15px rgba(0,0,0,.08);
+backdrop-filter:blur(12px);
+border-bottom:1px solid rgba(0,0,0,.05);
 }
 
 .brand{
@@ -60,11 +62,7 @@ justify-content:center;
 text-align:center;
 padding:40px;
 background:
-linear-gradient(
-135deg,
-#ffffff,
-#fff8ea
-);
+linear-gradient(135deg,#ffffff,#f8f5ef,#fff8ea);
 }
 
 .hero-content{
@@ -427,7 +425,6 @@ line-height:1.8;
 .testimonial-card h4{
 color:#b8860b;
 }
-}
 
 .payment-section{
 padding:80px 20px;
@@ -453,4 +450,77 @@ max-width:90%;
 border-radius:20px;
 box-shadow:0 10px 25px rgba(0,0,0,.15);
 margin:30px 0;
+}
+
+.stat-card,
+.feature,
+.center-card,
+.expert-card,
+.testimonial-card{
+transition:all .35s ease;
+}
+
+.stat-card:hover,
+.feature:hover,
+.center-card:hover,
+.expert-card:hover,
+.testimonial-card:hover{
+transform:translateY(-12px);
+box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.why-us h2,
+.wellness-centers h2,
+.experts h2,
+.testimonials h2{
+font-size:48px;
+font-weight:700;
+letter-spacing:-1px;
+}
+
+body{
+scroll-behavior:smooth;
+}
+
+.primary-btn,
+.secondary-btn{
+transition:all .3s ease;
+}
+
+.primary-btn:hover{
+transform:translateY(-3px);
+box-shadow:0 12px 25px rgba(184,134,11,.25);
+}
+
+.secondary-btn:hover{
+transform:translateY(-3px);
+background:#b8860b;
+color:white;
+}
+
+.hero{
+position:relative;
+overflow:hidden;
+}
+
+.hero::before{
+content:"";
+position:absolute;
+width:500px;
+height:500px;
+background:rgba(184,134,11,.06);
+border-radius:50%;
+top:-200px;
+right:-150px;
+}
+
+.hero::after{
+content:"";
+position:absolute;
+width:350px;
+height:350px;
+background:rgba(184,134,11,.05);
+border-radius:50%;
+bottom:-150px;
+left:-100px;
 }
