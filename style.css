@@ -524,3 +524,19 @@ border-radius:50%;
 bottom:-150px;
 left:-100px;
 }
+
+.hero-highlights{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.hero-highlights div{
+background:white;
+padding:12px 20px;
+border-radius:50px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+font-weight:600;
+}
