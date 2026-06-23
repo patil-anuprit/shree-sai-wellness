@@ -208,7 +208,7 @@ padding:35px;
 border-radius:20px;
 text-decoration:none;
 color:#333;
-font-size:40px;
+font-size:16px;
 box-shadow:0 10px 25px rgba(0,0,0,.08);
 transition:0.3s;
 }
@@ -221,6 +221,12 @@ transform:translateY(-10px);
 font-size:18px;
 margin-top:15px;
 color:#b8860b;
+}
+
+.center-card p{
+margin-top:10px;
+color:#666;
+line-height:1.6;
 }
 
 .experts{
