@@ -425,3 +425,29 @@ line-height:1.8;
 color:#b8860b;
 }
 }
+
+.payment-section{
+padding:80px 20px;
+text-align:center;
+background:#fff8ea;
+min-height:100vh;
+}
+
+.payment-section h1{
+font-size:48px;
+color:#b8860b;
+margin-bottom:20px;
+}
+
+.payment-section p{
+font-size:18px;
+margin-bottom:20px;
+}
+
+.payment-qr{
+width:320px;
+max-width:90%;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+margin:30px 0;
+}
