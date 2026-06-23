@@ -67,6 +67,10 @@ linear-gradient(135deg,#ffffff,#f8f5ef,#fff8ea);
 
 .hero-content{
 max-width:1000px;
+background:white;
+padding:50px;
+border-radius:30px;
+box-shadow:0 20px 50px rgba(0,0,0,.08);
 }
 
 .premium-tag{
