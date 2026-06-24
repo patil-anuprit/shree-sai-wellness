@@ -601,3 +601,7 @@ font-size:14px;
 font-weight:600;
 letter-spacing:.5px;
 }
+
+.footer{
+background:linear-gradient(135deg,#111,#1f2937);
+}
