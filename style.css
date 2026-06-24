@@ -591,3 +591,13 @@ transition:.3s;
 .anuprit-float:hover{
 transform:scale(1.1);
 }
+
+.top-bar{
+background:#b8860b;
+color:white;
+text-align:center;
+padding:10px;
+font-size:14px;
+font-weight:600;
+letter-spacing:.5px;
+}
