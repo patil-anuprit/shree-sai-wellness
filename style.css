@@ -605,3 +605,23 @@ letter-spacing:.5px;
 .footer{
 background:linear-gradient(135deg,#111,#1f2937);
 }
+
+.hero-stats{
+display:flex;
+justify-content:center;
+gap:50px;
+margin-top:50px;
+flex-wrap:wrap;
+text-align:center;
+}
+
+.hero-stats h3{
+font-size:38px;
+color:#b8860b;
+margin-bottom:5px;
+}
+
+.hero-stats p{
+font-size:15px;
+color:#555;
+}
