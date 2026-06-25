@@ -10,3 +10,21 @@ if ("serviceWorker" in navigator) {
       });
   });
 }
+window.addEventListener("load", () => {
+
+setTimeout(() => {
+
+const splash = document.getElementById("splash-screen");
+
+if(splash){
+splash.style.opacity = "0";
+
+setTimeout(() => {
+splash.style.display = "none";
+},800);
+
+}
+
+},1500);
+
+});
